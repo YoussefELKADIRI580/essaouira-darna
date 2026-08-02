@@ -12,12 +12,21 @@ export async function proxy(request: NextRequest) {
   // 1. Run the i18n routing middleware first, but ONLY for public site routes
   let supabaseResponse = NextResponse.next({ request });
   if (!isProtectedRoute) {
-    supabaseResponse = handleI18nRouting(request) || supabaseResponse;
+    const i18nResponse = handleI18nRouting(request);
+    if (i18nResponse) {
+      if (i18nResponse.headers.get('location') || (i18nResponse.status >= 300 && i18nResponse.status < 400)) {
+        return i18nResponse;
+      }
+      supabaseResponse = i18nResponse;
+    }
   }
 
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://placeholder.supabase.co";
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "placeholder-anon-key";
+
   const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    supabaseUrl,
+    supabaseAnonKey,
     {
       cookies: {
         getAll() {
