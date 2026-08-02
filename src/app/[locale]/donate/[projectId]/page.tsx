@@ -102,11 +102,15 @@ export default async function ProjectDonationPage({ params }: PageProps) {
           </FadeIn>
 
           <FadeIn delay={0.3} direction="right">
-            {/* Project Large Image Placeholder */}
-            <div className="relative aspect-[16/10] w-full overflow-hidden rounded-3xl border border-border-custom bg-surface flex flex-col items-center justify-center text-primary/30 shadow-xl shadow-primary/5">
-              <ImageIcon className="h-20 w-20 mb-4 opacity-50" />
-              <span className="font-heading text-2xl font-bold text-primary/40">صورة المشروع التفصيلية</span>
-              <span className="text-sm font-mono mt-2 text-primary/40">المقاس المقترح: 1200x750 بكسل</span>
+            {/* Project Large Image */}
+            <div className="relative aspect-[16/10] w-full overflow-hidden rounded-3xl border border-border-custom bg-surface shadow-xl shadow-primary/5 group">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={project.image_url || "/img/darna-1.jpeg"}
+                alt={localizedTitle || project.title}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/50 via-transparent to-transparent pointer-events-none" />
             </div>
           </FadeIn>
 

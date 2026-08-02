@@ -48,9 +48,9 @@ export default async function About() {
   return (
     <div className="flex flex-col gap-20 py-12 md:py-24 relative overflow-hidden">
       {/* Side Photo Peeks for About Page */}
-      <AmbientSidePeek side="left" badgeText="مقر جمعية الصويرة دارنا" className="top-[15%]" />
-      <AmbientSidePeek side="right" badgeText="فريق العمل والمتطوعين" className="top-[45%]" />
-      <AmbientSidePeek side="left" badgeText="الرسالة والرؤية الميدانية" className="top-[75%]" />
+      <AmbientSidePeek side="left" badgeText="مقر جمعية الصويرة دارنا" src="/img/darna-5.jpeg" className="top-[15%]" />
+      <AmbientSidePeek side="right" badgeText="فريق العمل والمتطوعين" src="/img/darna-6.jpeg" className="top-[45%]" />
+      <AmbientSidePeek side="left" badgeText="الرسالة والرؤية الميدانية" src="/img/darna-7.jpeg" className="top-[75%]" />
       {/* Intro Hero */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center relative">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-background to-background"></div>
@@ -67,10 +67,17 @@ export default async function About() {
             </p>
           </FadeIn>
           <FadeIn delay={0.4} direction="up">
-            <div className="mt-12 w-full h-[400px] md:h-[500px] rounded-3xl bg-surface border border-border-custom flex flex-col items-center justify-center text-primary/40 shadow-2xl shadow-primary/5">
-              <ImageIcon className="h-20 w-20 mb-4 opacity-50" />
-              <span className="font-heading text-2xl font-bold">{t("groupImageSpace")}</span>
-              <span className="text-sm font-mono mt-2">{t("suggestedSize")}</span>
+            <div className="mt-12 w-full h-[400px] md:h-[550px] rounded-3xl overflow-hidden border border-border-custom shadow-2xl shadow-primary/10 relative group">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/group-photo.jpg"
+                alt="صورة جماعية - جمعية الصويرة دارنا"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-transparent to-transparent flex flex-col justify-end p-8 text-right">
+                <span className="text-white font-heading text-2xl font-bold">جمعية الصويرة دارنا</span>
+                <p className="text-white/80 text-sm font-medium mt-1">أسرة دارنا: الأطفال والأطر والمتطوعون بالصويرة</p>
+              </div>
             </div>
           </FadeIn>
         </div>

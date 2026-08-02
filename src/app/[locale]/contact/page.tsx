@@ -61,7 +61,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col gap-16 py-12 md:py-24 relative overflow-hidden">
       {/* Side Photo Peeks for Contact Page */}
-      <AmbientSidePeek side="left" badgeText="استقبال وزوار جمعية دارنا" className="top-[30%]" />
+      <AmbientSidePeek side="left" badgeText="استقبال وزوار جمعية دارنا" src="/img/darna-8.jpeg" className="top-[30%]" />
       {/* Page Title */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center relative">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-background to-background"></div>

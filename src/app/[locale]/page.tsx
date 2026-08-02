@@ -101,22 +101,21 @@ export default async function Home() {
               </FadeIn>
             </div>
 
-            {/* Right side (RTL -> Left side): Image Placeholder */}
+            {/* Right side (RTL -> Left side): Hero Featured Image Frame */}
             <div className="relative">
               <FadeIn delay={0.5} direction="left">
                 <div className="relative w-full aspect-square max-w-[450px] mx-auto flex items-center justify-center mt-8 lg:mt-0">
                   {/* Orbiting dashed circles */}
-                  <div className="absolute inset-0 rounded-full border-[1px] border-dashed border-white/30 animate-[spin_20s_linear_infinite]" />
+                 <div className="absolute inset-0 rounded-full border-[1px] border-dashed border-white/30 animate-[spin_20s_linear_infinite]" />
                   <div className="absolute inset-8 rounded-full border-[1px] border-dashed border-secondary/40 animate-[spin_15s_linear_infinite_reverse]" />
                   <div className="absolute inset-16 rounded-full border-[1px] border-solid border-primary/30 animate-[spin_30s_linear_infinite]" />
-
-                  {/* Glowing center orb */}
+                   {/* Glowing center orb */}
                   <div className="relative z-10 flex items-center justify-center w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-primary/40 to-secondary/40 backdrop-blur-xl border border-white/30 shadow-[0_0_50px_rgba(249,115,22,0.4)] animate-pulse">
                     <HeartHandshake className="w-16 h-16 text-white drop-shadow-xl" />
                   </div>
 
-                  {/* Floating elements */}
-                  <div className="absolute top-[10%] left-[15%] animate-[bounce_3s_ease-in-out_infinite]">
+                  {/* Floating badge elements */}
+                 <div className="absolute top-[10%] left-[15%] animate-[bounce_3s_ease-in-out_infinite]">
                     <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-xl rotate-12">
                       <Users className="w-8 h-8 text-secondary drop-shadow-md" />
                     </div>
@@ -128,12 +127,11 @@ export default async function Home() {
                     </div>
                   </div>
 
-                  <div className="absolute top-[20%] right-[15%] animate-[bounce_5s_ease-in-out_infinite]">
+                   <div className="absolute top-[20%] right-[15%] animate-[bounce_5s_ease-in-out_infinite]">
                     <div className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg">
                       <Heart className="w-6 h-6 text-white drop-shadow-md" />
                     </div>
                   </div>
-
                   <div className="absolute bottom-[25%] left-[10%] animate-[bounce_6s_ease-in-out_infinite_reverse]">
                     <div className="p-3 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-lg rotate-45">
                       <Award className="w-7 h-7 text-white drop-shadow-md" />
@@ -162,7 +160,7 @@ export default async function Home() {
 
       {/* Impact Summary Section */}
       <section className="bg-background py-20 relative z-20 overflow-hidden">
-        <AmbientSidePeek side="left" badgeText="مأوى ورعاية الأطفال - الصويرة" className="top-16" />
+        <AmbientSidePeek side="left" badgeText="مأوى ورعاية الأطفال - الصويرة" src="/img/darna-1.jpeg" className="top-16" />
         <WatermarkText text="معاينة" className="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
 
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
@@ -217,7 +215,7 @@ export default async function Home() {
 
       {/* من نحن Section Grid */}
       <section className="py-24 bg-white border-y border-border-custom relative overflow-hidden">
-        <AmbientSidePeek side="right" badgeText="أنشطة الجمعية الميدانية" className="top-12" />
+        <AmbientSidePeek side="right" badgeText="أنشطة الجمعية الميدانية" src="/img/darna-2.jpeg" className="top-12" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <FadeIn delay={0.1} direction="up">
             <div className="text-center max-w-3xl mx-auto flex flex-col gap-4 mb-16">
@@ -244,7 +242,7 @@ export default async function Home() {
 
       {/* Values Section */}
       <section className="py-24 bg-[#F8FAFC] relative overflow-hidden">
-        <AmbientSidePeek side="left" badgeText="كفالة وحقيبة مدرسية" className="top-20" />
+        <AmbientSidePeek side="left" badgeText="كفالة وحقيبة مدرسية" src="/img/darna-3.jpeg" className="top-20" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <FadeIn delay={0.1} direction="up">
             <div className="text-center max-w-3xl mx-auto flex flex-col gap-6 mb-16">
@@ -287,7 +285,7 @@ export default async function Home() {
 
       {/* News Section */}
       <section className="py-24 bg-white border-t border-border-custom relative overflow-hidden">
-        <AmbientSidePeek side="right" badgeText="فعاليات ومناسبات دارنا" className="top-16" />
+        <AmbientSidePeek side="right" badgeText="فعاليات ومناسبات دارنا" src="/img/darna-4.jpeg" className="top-16" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <FadeIn delay={0.1} direction="up">
             <div className="text-center max-w-3xl mx-auto flex flex-col gap-6 mb-16">

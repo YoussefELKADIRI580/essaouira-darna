@@ -17,8 +17,8 @@ export default async function Projects() {
   return (
     <div className="flex flex-col gap-16 py-12 md:py-24 relative overflow-hidden">
       {/* Side Photo Peeks for Projects Page */}
-      <AmbientSidePeek side="right" badgeText="مشاريع إيواء وتأهيل الأطفال" className="top-[20%]" />
-      <AmbientSidePeek side="left" badgeText="توفير الكتب والأدوات المدرسية" className="top-[60%]" />
+      <AmbientSidePeek side="right" badgeText="مشاريع إيواء وتأهيل الأطفال" src="/img/darna-9.jpeg" className="top-[20%]" />
+      <AmbientSidePeek side="left" badgeText="توفير الكتب والأدوات المدرسية" src="/img/darna-10.jpeg" className="top-[60%]" />
       {/* Intro Header */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center relative">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-background to-background"></div>
@@ -68,17 +68,22 @@ export default async function Projects() {
             const localizedTitle = locale === 'fr' ? project.title_fr : locale === 'en' ? project.title_en : project.title;
             const localizedShortDesc = locale === 'fr' ? project.short_description_fr : locale === 'en' ? project.short_description_en : project.short_description;
 
+            const projectImg = project.image_url || `/img/darna-${(idx % 25) + 1}.jpeg`;
+
             return (
               <FadeIn key={project.id} delay={0.1 + idx * 0.1} direction="up">
                 <div
                   className="flex flex-col overflow-hidden rounded-3xl border border-border-custom bg-white shadow-xl shadow-primary/5 hover-lift group h-full"
                 >
-                  {/* Image Placeholder */}
+                  {/* Image Display */}
                   <div className="relative aspect-[4/3] w-full bg-surface border-b border-border-custom flex flex-col items-center justify-center overflow-hidden">
-                    <div className="absolute inset-0 bg-primary/5 group-hover:scale-105 transition-transform duration-500"></div>
-                    <ImageIcon className="h-12 w-12 text-primary/30 mb-2 relative z-10" />
-                    <span className="text-sm font-bold text-primary/40 relative z-10">صورة المشروع ({localizedTitle || project.title})</span>
-                    <span className="text-xs font-mono text-primary/40 relative z-10">المقاس: 600x450 بكسل</span>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={projectImg}
+                      alt={localizedTitle || project.title}
+                      className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 via-transparent to-transparent pointer-events-none" />
                     
                     <div
                       className={`absolute top-4 right-4 rounded-xl px-3 py-1.5 text-xs font-bold text-white shadow-md z-20 backdrop-blur-md ${

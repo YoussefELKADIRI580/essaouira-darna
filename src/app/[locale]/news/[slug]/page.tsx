@@ -61,19 +61,12 @@ export default async function NewsDetailsPage({ params }: { params: Promise<{ sl
 
           <FadeIn delay={0.2} direction="up">
             <div className="relative w-full aspect-video rounded-3xl overflow-hidden shadow-2xl mb-12 bg-white flex items-center justify-center border border-border-custom">
-              {news.image_url ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img 
-                  src={news.image_url} 
-                  alt={news.title}
-                  className="w-full h-full object-cover"
-                />
-              ) : (
-                <div className="flex flex-col items-center text-charcoal/20">
-                  <ImageIcon className="h-20 w-20 mb-4" />
-                  <span className="font-bold">{t("noImage")}</span>
-                </div>
-              )}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img 
+                src={news.image_url || "/img/darna-4.jpeg"} 
+                alt={news.title}
+                className="w-full h-full object-cover"
+              />
             </div>
           </FadeIn>
 

@@ -95,15 +95,12 @@ export function NewsCarousel({ newsItems }: NewsCarouselProps) {
             <FadeIn key={`${news.id}-${currentIndex}`} delay={idx * 0.1} direction="up">
               <div className="flex flex-col bg-white/60 backdrop-blur-md border border-border-custom rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-500 h-full group overflow-hidden">
                 <div className="relative aspect-[4/3] bg-surface flex flex-col items-center justify-center text-primary/40 group-hover:text-primary/60 transition-colors overflow-hidden">
-                  {news.image_url ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img src={news.image_url} alt={news.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                  ) : (
-                    <>
-                      <ImageIcon className="w-12 h-12 mb-2 transition-transform duration-500 group-hover:scale-110" />
-                      <span className="text-xs font-bold text-center">مساحة لصورة الخبر<br />600x400</span>
-                    </>
-                  )}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img 
+                    src={news.image_url || `/img/darna-${(idx % 25) + 1}.jpeg`} 
+                    alt={news.title} 
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                  />
 
                   {/* Date Badge */}
                   {news.day_text && (

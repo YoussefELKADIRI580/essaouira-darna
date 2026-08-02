@@ -1,8 +1,6 @@
 "use client";
 
 import React from "react";
-import { Camera, Sparkles, Image as ImageIcon } from "lucide-react";
-import Image from "next/image";
 
 interface AmbientSidePeekProps {
   readonly side: "left" | "right";
@@ -46,43 +44,13 @@ export function AmbientSidePeek({
         />
 
         {/* Inner Photo Area */}
-        <div className="relative w-full h-full rounded-[1.6rem] overflow-hidden bg-slate-90 border border-slate-200/80 shadow-inner flex flex-col items-center justify-center">
-          {src ? (
-            <Image
-              src={src}
-              alt={alt}
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
-              sizes="(max-width: 1280px) 400px, 450px"
-            />
-          ) : (
-            /* Photographer Viewfinder Placeholder (Sleek UI) */
-            <div className="relative w-full h-full bg-gradient-to-br from-slate-50 via-primary/5 to-secondary/10 flex flex-row items-center justify-center p-5 gap-4 group-hover:bg-primary/10 transition-colors">
-              {/* Viewfinder Camera Corners */}
-              <div className="absolute top-3 left-3 w-4 h-4 border-t-2 border-l-2 border-primary/50 rounded-tl-sm group-hover:scale-110 transition-transform" />
-              <div className="absolute top-3 right-3 w-4 h-4 border-t-2 border-r-2 border-primary/50 rounded-tr-sm group-hover:scale-110 transition-transform" />
-              <div className="absolute bottom-3 left-3 w-4 h-4 border-b-2 border-l-2 border-primary/50 rounded-bl-sm group-hover:scale-110 transition-transform" />
-              <div className="absolute bottom-3 right-3 w-4 h-4 border-b-2 border-r-2 border-primary/50 rounded-br-sm group-hover:scale-110 transition-transform" />
-
-              {/* Camera Icon Badge */}
-              <div className="w-14 h-14 shrink-0 rounded-2xl bg-white shadow-md border border-slate-200/90 flex items-center justify-center text-primary group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                <Camera className="w-7 h-7 text-primary" />
-              </div>
-
-              <div className="flex flex-col text-right gap-1 z-10">
-                <span className="font-heading text-sm font-extrabold text-charcoal">
-                  مكان صورة أفقية للمصور (50% ← 100%)
-                </span>
-                <span className="text-[11px] font-mono text-charcoal/60 font-bold">
-                  (مقاس موصى به: 1200 × 800)
-                </span>
-                <div className="mt-1 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/90 shadow-sm text-primary text-[10px] font-bold border border-primary/20 max-w-max">
-                  <Sparkles className="w-3 h-3 text-secondary animate-spin" />
-                  <span>مرر الماوس لإظهار الصورة 100%</span>
-                </div>
-              </div>
-            </div>
-          )}
+        <div className="relative w-full h-full rounded-[1.6rem] overflow-hidden bg-slate-900 border border-slate-200/80 shadow-inner flex flex-col items-center justify-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={src || "/img/darna-1.jpeg"}
+            alt={alt}
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+          />
 
           {/* Photo Dark Overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/20 to-transparent opacity-75 group-hover:opacity-40 transition-opacity duration-500" />

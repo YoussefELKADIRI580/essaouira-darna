@@ -33,20 +33,12 @@ export async function NewsSection() {
               <div className="group flex flex-col h-full bg-white border border-border-custom hover:border-primary/30 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
                 {/* Image Section */}
                 <div className="relative h-56 bg-surface overflow-hidden">
-                  {item.image_url ? (
-                    <Image
-                      src={item.image_url}
-                      alt={item.title}
-                      fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                  ) : (
-                    <div className="absolute inset-0 flex flex-col items-center justify-center text-charcoal/20">
-                      <ImageIcon className="h-16 w-16 mb-2" />
-                      <span className="text-sm font-bold">مساحة لصورة الخبر</span>
-                      <span className="text-xs">600x400</span>
-                    </div>
-                  )}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={item.image_url || `/img/darna-${(index % 25) + 1}.jpeg`}
+                    alt={item.title}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
 
                   {/* Date Badge */}
                   <div className="absolute top-4 right-4 bg-white shadow-lg rounded-xl flex flex-col items-center justify-center p-2 min-w-[3.5rem] transform transition-transform group-hover:-translate-y-1">
