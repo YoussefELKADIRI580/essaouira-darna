@@ -1,11 +1,11 @@
-import { createServerClient, type CookieOptions } from "@supabase/ssr";
+import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import createIntlMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 
 const handleI18nRouting = createIntlMiddleware(routing);
 
-export async function proxy(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   const isProtectedRoute = pathname.startsWith('/admin');
 
