@@ -1,0 +1,76 @@
+{
+  "Common": {
+    "readMore": "Lire la suite",
+    "back": "Retour",
+    "donateNow": "Faire un don",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "Navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "news": "Actualités",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email",
+    "quickLinks": "Liens Rapides",
+    "contactInfo": "Coordonnées",
+    "privacyPolicy": "Politique de protection de l'enfance et de confidentialité",
+    "rightsReserved": "Tous droits réservés"
+  },
+  "Home": {
+    "heroMission": "Notre Mission",
+    "heroTitle1": "Aider les enfants",
+    "heroTitle2": "en situation difficile",
+    "heroSubtitle": "Votre contribution financière leur assurera un avenir brillant",
+    "newsTitle": "Dernières actualités et mises à jour",
+    "aboutUs": "Qui sommes-nous",
+    "ourValues": "Nos Principes et Valeurs",
+    "valuesDesc": "Nos valeurs sont les droits de l'enfant et les principes universels, ainsi que l'identité civile marocaine, avec ses principes éthiques et culturels. Nous visons à accomplir la mission de l'association en respectant ces principes :",
+    "partners": "Partenaires de réussite et soutiens officiels",
+    "donateHope": "Faites un don et donnez de l'espoir",
+    "newsSectionTitle": "Actualités",
+    "ctaTitle": "Aidez-nous à répondre aux besoins des enfants",
+    "ctaSubtitle": "Aidez-nous à changer pour le mieux",
+    "backToNews": "Retour aux actualités",
+    "noImage": "Aucune image mise en avant pour cette actualité"
+  },
+  "About": {
+    "discoverMission": "Découvrez notre mission",
+    "associationName": "Association Essaouira Darna",
+    "associationIntroText": "L'association a été fondée pour offrir un foyer, de la chaleur et de l'espoir à chaque enfant en situation difficile dans la ville d'Essaouira. Nous croyons que la protection de l'enfance est une responsabilité partagée pour construire une société équilibrée.",
+    "groupImageSpace": "Espace dédié pour une photo de groupe",
+    "suggestedSize": "Taille suggérée : 1200x500 pixels",
+    "associationHistory": "Histoire de l'Association Darna",
+    "historySubtitle": "Un parcours de générosité et d'espoir depuis 2005",
+    "ourVision": "Notre vision",
+    "ourMission": "Notre mission",
+    "ourCoreValues": "Nos valeurs et principes",
+    "coreValuesSubtitle": "Les fondements éthiques et professionnels qui guident toutes nos initiatives et interventions quotidiennes en faveur des enfants.",
+    "teamAndFounders": "L'Équipe et les Fondateurs",
+    "teamSubtitle": "Un groupe d'experts dévoués à la mission de l'association et travaillant à sa réalisation sur le terrain.",
+    "honoraryMembers": "Membres Honoraires",
+    "honoraryMembersSubtitle": "Personnalités et partenaires ayant apporté un soutien exceptionnel à l'association et contribué à son rayonnement.",
+    "activeMembers": "Membres du Bureau",
+    "founders": "Fondateurs et Premiers Bailleurs de Fonds",
+    "centerTeam": "L'Équipe du Centre",
+    "sponsorsAndPartners": "Partenaires et Bailleurs de Fonds",
+    "sponsorsSubtitle": "La réalisation de nos objectifs n'est possible qu'avec les efforts conjoints de nos partenaires et soutiens.",
+    "donorPartners": "Partenaires Donateurs",
+    "institutionalPartners": "Partenaires Institutionnels",
+    "civilPartners": "Partenaires de la Société Civile",
+    "donorMembers": "Membres Donateurs",
+    "annualReports": "Rapports Littéraires et Financiers",
+    "reportsSubtitle": "Nous respectons les normes les plus strictes de transparence envers nos donateurs et partenaires. Vous pouvez consulter et télécharger nos rapports annuels audités.",
+    "downloadReport": "Télécharger le rapport (PDF)",
+    "annualReport": "Rapport Annuel",
+    "transparency": "Transparence et Gouvernance"
+  },
+  "Donate": {
+    "backToProjects": "Retour aux Projets",
+    "donationId": "ID de Don"
+  }
+}

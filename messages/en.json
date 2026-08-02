@@ -1,0 +1,76 @@
+{
+  "Common": {
+    "readMore": "Read More",
+    "back": "Back",
+    "donateNow": "Donate Now",
+    "allRightsReserved": "All rights reserved."
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "news": "News",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "privacyPolicy": "Child Protection and Privacy Policy",
+    "rightsReserved": "All rights reserved"
+  },
+  "Home": {
+    "heroMission": "Our Mission",
+    "heroTitle1": "Helping children",
+    "heroTitle2": "in difficult situations",
+    "heroSubtitle": "Your financial contribution will ensure them a bright future",
+    "newsTitle": "Latest News & Updates",
+    "aboutUs": "About Us",
+    "ourValues": "Our Principles & Values",
+    "valuesDesc": "Our values are children's rights and universal principles, as well as Moroccan civil identity, with its ethical and cultural principles. We aim to achieve the association's mission by respecting these principles:",
+    "partners": "Partners of Success & Official Supporters",
+    "donateHope": "Donate Now & Give Hope",
+    "newsSectionTitle": "The News",
+    "ctaTitle": "Help us meet the needs of children",
+    "ctaSubtitle": "Help us change for the better",
+    "backToNews": "Back to News",
+    "noImage": "No featured image for this news"
+  },
+  "About": {
+    "discoverMission": "Discover Our Mission",
+    "associationName": "Essaouira Darna Association",
+    "associationIntroText": "The association was founded to provide a home, warmth, and hope to every child facing difficult circumstances in Essaouira. We believe child protection is a shared responsibility to build a balanced society.",
+    "groupImageSpace": "Space dedicated for a group photo",
+    "suggestedSize": "Suggested size: 1200x500 pixels",
+    "associationHistory": "History of Darna Association",
+    "historySubtitle": "A journey of giving and hope ongoing since 2005",
+    "ourVision": "Our Vision",
+    "ourMission": "Our Mission",
+    "ourCoreValues": "Our Values and Principles",
+    "coreValuesSubtitle": "The ethical and professional foundations that guide all our daily initiatives and interventions for children.",
+    "teamAndFounders": "The Team and Founders",
+    "teamSubtitle": "A group of dedicated experts believing in the association's mission and working to achieve it on the ground.",
+    "honoraryMembers": "Honorary Members",
+    "honoraryMembersSubtitle": "Figures and partners who have provided exceptional support to the association and contributed to its growth.",
+    "activeMembers": "Board Members",
+    "founders": "Founders and Early Supporters",
+    "centerTeam": "Center Team",
+    "sponsorsAndPartners": "Sponsors and Partners",
+    "sponsorsSubtitle": "Achieving our goals is only possible with the joint efforts of our partners and supporters.",
+    "donorPartners": "Donor Partners",
+    "institutionalPartners": "Institutional Partners",
+    "civilPartners": "Civil Society Partners",
+    "donorMembers": "Donor Members",
+    "annualReports": "Literary and Financial Reports",
+    "reportsSubtitle": "We commit to the highest standards of transparency towards our donors and partners. You can view and download our audited annual reports.",
+    "downloadReport": "Download Report (PDF)",
+    "annualReport": "Annual Report",
+    "transparency": "Transparency and Governance"
+  },
+  "Donate": {
+    "backToProjects": "Back to Projects",
+    "donationId": "Donation ID"
+  }
+}

@@ -1,0 +1,1209 @@
+{
+  "association_info": [
+    {
+      "id": "d5983249-b21d-49e9-a5c3-d43d7e316848",
+      "name": "جمعية الصويرة دارنا",
+      "tagline": "رعاية وإيواء وإدماج الأطفال في وضعية صعبة بإقليم الصويرة",
+      "description": "تأسست جمعية الصويرة دارنا بهدف تقديم الرعاية الكاملة، التعليم، والدعم النفسي والاجتماعي للأطفال الأيتام والمتخلى عنهم أو الذين يعيشون في ظروف اجتماعية صعبة في مدينة الصويرة ونواحيها.",
+      "address": "تجزئة الغزوة، الصويرة، المغرب",
+      "phone": "+212 524 78X XXX",
+      "email": "contact@essaouiradarna.ma",
+      "bank_account": "011 810 0000 1234567890 123 45",
+      "bank_name": "البنك الشعبي - وكالة الصويرة الغزوة",
+      "logo_url": null,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-13T09:05:18.003601+00:00",
+      "name_fr": "جمعية الصويرة دارنا",
+      "name_en": "جمعية الصويرة دارنا",
+      "tagline_fr": null,
+      "tagline_en": null,
+      "description_fr": null,
+      "description_en": null,
+      "address_fr": null,
+      "address_en": null
+    }
+  ],
+  "nav_links": [
+    {
+      "id": "83de1a04-9789-4416-9f5f-0cef3e89b872",
+      "href": "/",
+      "label": "الرئيسية",
+      "sort_order": 1,
+      "is_active": true,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "label_fr": "الرئيسية",
+      "label_en": "الرئيسية"
+    },
+    {
+      "id": "150df4a3-ace1-40b4-bd40-a28f8d932eb6",
+      "href": "/about",
+      "label": "من نحن",
+      "sort_order": 2,
+      "is_active": true,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "label_fr": "من نحن",
+      "label_en": "من نحن"
+    },
+    {
+      "id": "7beb3eaf-4312-4b7f-b3eb-ec8009750123",
+      "href": "/projects",
+      "label": "مشاريعنا",
+      "sort_order": 3,
+      "is_active": true,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "label_fr": "مشاريعنا",
+      "label_en": "مشاريعنا"
+    },
+    {
+      "id": "fbf78ce5-ca5d-4dfa-b037-d47a6d21d469",
+      "href": "/contribute",
+      "label": "كيف تساهم",
+      "sort_order": 4,
+      "is_active": true,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "label_fr": "كيف تساهم",
+      "label_en": "كيف تساهم"
+    },
+    {
+      "id": "06270d3a-08dd-4917-b9e7-42782d354e9e",
+      "href": "/contact",
+      "label": "اتصل بنا",
+      "sort_order": 5,
+      "is_active": true,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "label_fr": "اتصل بنا",
+      "label_en": "اتصل بنا"
+    }
+  ],
+  "stats": [
+    {
+      "id": "19e23818-7415-4d9f-b2be-1259052c7bfb",
+      "value": "+420",
+      "label": "مستفيد",
+      "description": "عدد المستفيدين حتى 31/12/2025",
+      "sort_order": 1,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "2a24b3be-5f5c-4c80-b1bc-f21b51b477e8",
+      "value": "850.000.00",
+      "label": "درهم",
+      "description": "المبلغ المتوقع للتبرعات الخيرية لعام 2026 (24%)",
+      "sort_order": 2,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "b6b01290-1518-4703-8409-df719b87b121",
+      "value": "3.483.470.35",
+      "label": "درهم",
+      "description": "الميزانية التشغيلية المتوقعة لعام 2026",
+      "sort_order": 3,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "9b378ddf-0470-4997-85e0-266369f422a0",
+      "value": "+100",
+      "label": "مستفيد",
+      "description": "عدد المستفيدين لعام 2026",
+      "sort_order": 4,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "b7c39582-6f57-4ec0-9fdd-8979fc85f6da",
+      "value": "+420",
+      "label": "مستفيد",
+      "description": "عدد المستفيدين حتى 31/12/2025",
+      "sort_order": 1,
+      "page": "about",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "6b023416-5a5f-4cb1-9ae3-d1535e947765",
+      "value": "+100",
+      "label": "مستفيد",
+      "description": "عدد المستفيدين لعام 2026",
+      "sort_order": 2,
+      "page": "about",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "3394dd85-0a11-4d0e-bfd6-aa8fac20e587",
+      "value": "850,000",
+      "label": "درهم",
+      "description": "المبلغ المتوقع للتبرعات الخيرية لعام 2026 (24%)",
+      "sort_order": 3,
+      "page": "about",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "f2a7ca45-f776-41c1-bcaa-42e189a9d38a",
+      "value": "3,483,470",
+      "label": "درهم",
+      "description": "الميزانية التشغيلية المتوقعة لعام 2026",
+      "sort_order": 4,
+      "page": "about",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    }
+  ],
+  "association_values": [
+    {
+      "id": "7269bc49-ba46-419c-8dc6-e263718d9a59",
+      "title": "جودة الخدمات",
+      "description": "خدماتنا مجانية لضمان استمراريتها وامتثالها للقانون رقم 14/05",
+      "icon_name": "Award",
+      "sort_order": 1,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "76e41a06-d3e2-4054-951a-7322fc352401",
+      "title": "شراكة",
+      "description": "نحن مقتنعون بأن نجاح كل عمل اجتماعي يعتمد على المشاركة والتعاون بين الافراد",
+      "icon_name": "Handshake",
+      "sort_order": 2,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "bbd2e5f1-e37f-460c-ba29-537fa3dcbc56",
+      "title": "المصداقية",
+      "description": "إلى كل المبادرات التي تساعدنا في تقديم المساعدات الضرورية للاطفال المحتاجين",
+      "icon_name": "CheckCircle",
+      "sort_order": 3,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "35a1ed92-474c-416c-a47b-903d74009ba0",
+      "title": "التواصل",
+      "description": "في تواصل دائم مع شركائنا",
+      "icon_name": "Network",
+      "sort_order": 4,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "f1e49b0c-5056-412f-a5f9-df94e9e8a25b",
+      "title": "تكافل",
+      "description": "بين المستفيدين وموظفي الجمعية",
+      "icon_name": "Users",
+      "sort_order": 5,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "22043096-79b7-4a34-b11b-290213cae15a",
+      "title": "الشفافية",
+      "description": "في إدارة الشؤون الإدارية والمالية",
+      "icon_name": "ShieldCheck",
+      "sort_order": 6,
+      "page": "home",
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "3fac07dd-7f8d-4404-9fc0-56502e2e433b",
+      "title": "رعاية شاملة",
+      "description": "توفير المأوى، الغذاء، اللباس، والتطبيب لكل طفل مقيم بالدار لضمان نموه بشكل متوازن وطبيعي.",
+      "icon_name": "Heart",
+      "sort_order": 1,
+      "page": "about",
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "356eb11d-6127-4526-a98e-add82b9a0edd",
+      "title": "التعليم والتوجيه",
+      "description": "متابعة الأطفال في مساراتهم الدراسية وتوجيههم وتأهيلهم لولوج سوق الشغل والاعتماد على أنفسهم.",
+      "icon_name": "Compass",
+      "sort_order": 2,
+      "page": "about",
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "0b23303d-9b0b-40a7-bdfb-a4b3d70c94b6",
+      "title": "الشفافية والالتزام",
+      "description": "الالتزام بأعلى معايير الحكامة المالية والتدبير الإداري مع كافة الشركاء والمتبرعين والمؤسسات.",
+      "icon_name": "ShieldCheck",
+      "sort_order": 3,
+      "page": "about",
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    }
+  ],
+  "about_content": [
+    {
+      "id": "ecdb2447-c66b-4b69-b5f9-1bceca21e202",
+      "section": "intro_blocks",
+      "sort_order": 1,
+      "content": "جمعية الصويرة دارنا هي مؤسسة للحماية الاجتماعية تعتني بالأطفال المهجورين أو الذين يعانون من أوضاع صعبة.",
+      "title": null,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "71c3ee57-5d2b-4cb2-a426-a6c77a97731f",
+      "section": "intro_blocks",
+      "sort_order": 2,
+      "content": "تأسست الجمعية في 21 مارس 2008 بفضل المبادرة الوطنية للتنمية البشرية التي انطلقت عام 2005 بالصويرة.",
+      "title": null,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "552d72a4-df54-457f-a92b-3ebfd2040f43",
+      "section": "intro_blocks",
+      "sort_order": 3,
+      "content": "أصبحت المؤسسة مرخصة قانونيا في أبريل 2009 ، وفقا للقرار رقم 10/09 الصادر عن وزارة التضامن النسائي والأسرة والتنمية الاجتماعية ، بسعة 120 مستفيد ومستفيدة.",
+      "title": null,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "e7b57b74-9ee2-4808-b9ea-a526243626b5",
+      "section": "intro_blocks",
+      "sort_order": 4,
+      "content": "تخضع إدارة المؤسسة للقانون التشريعي رقم 14/05 المتعلق بشروط التأهيل لفتح وإدارة مؤسسات الحماية الاجتماعية في المغرب.",
+      "title": null,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "24cd0445-70a4-4235-b994-921e95cb5492",
+      "section": "vision",
+      "sort_order": 1,
+      "content": "نطمح في جمعية الصويرة دارنا إلى أن يصبح إقليم الصويرة خالياً تماماً من ظاهرة الأطفال المشردين أو المعرضين للخطر، وأن نضمن لكل طفل ينتمي إلى هذه الفئة مأوىً كريمًا وفرصة متكافئة للتعليم الجيد والنمو السليم.",
+      "title": "مستقبل بدون أطفال في وضعية شارع",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "b8033d4c-6aa1-4006-b0c8-df4c4037cd7a",
+      "section": "mission",
+      "sort_order": 1,
+      "content": "تتمثل رسالتنا في احتضان الأطفال اليتامى والمتخلى عنهم أو الذين يعيشون في وضعية صعبة، وتوفير المأوى الآمن والتغذية المتكاملة والرعاية الطبية والدراسة والأنشطة الترفيهية لهم، تمهيداً لإدماجهم الفعال في محيطهم الاجتماعي والمهني كأعضاء فاعلين ومستقلين.",
+      "title": "الرعاية والإيواء والإدماج الاجتماعي",
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T16:34:56.152591+00:00"
+    }
+  ],
+  "partners": [
+    {
+      "id": "6e2fbf9f-f525-4985-a332-5f95b0996da2",
+      "name": "Groupe Accor Hôtel Ibis Essaouira",
+      "partner_type": "donor",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "97c8d0b4-fe39-40e4-bbc8-a4389e8bce6e",
+      "name": "Hôtels prestige Marrakech",
+      "partner_type": "donor",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "41fbb177-9d25-4d3f-bee0-81ff33903f30",
+      "name": "Laboratoire Galinica Casablanca pharmacie",
+      "partner_type": "donor",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "0ebe9279-a4e4-4057-9ce7-1d406a443e2c",
+      "name": "Laboratoire Abdelkarim EL KHATABI d'Essaouira",
+      "partner_type": "donor",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "0698efac-6328-473a-8e92-2b9a8f4577c3",
+      "name": "Comité Provincial de Développement Humain de la Province d'Essaouira",
+      "partner_type": "institutional",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "5ff69f01-a2be-4696-8681-15925b7943c7",
+      "name": "Ministère de la famille solidarité égalité et développement social",
+      "partner_type": "institutional",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "ebfc733e-24b6-4a20-ba3f-7e198b2a338a",
+      "name": "Entraide National",
+      "partner_type": "institutional",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "7806ece3-401d-40a4-9764-af8a1db51ad9",
+      "name": "Conseil Provincial d'Esssaouira",
+      "partner_type": "institutional",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "a977ce69-23e9-43e0-8979-6bd916015dfe",
+      "name": "Conseil Régional de Marrakech Safi",
+      "partner_type": "institutional",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 5,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "57197b30-fdc3-439e-984e-3421ec074fe1",
+      "name": "Association d'appui au Complexe Social Ibtissama d'Essaouira",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "3cc44ef7-d090-4c63-8dde-b668016d1d73",
+      "name": "Association Essaouira Mogador",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "a81593db-e5bc-4e9f-81fc-d38882348918",
+      "name": "Conseil Provincial du Tourisme d'Essaouira",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "595ca93c-a584-49b3-b10d-143e41af3a15",
+      "name": "Institut Francais d'Essaouira",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "c8e7efb9-b363-40d1-bc16-db02dbed23e4",
+      "name": "Association Sidi Bel Abasse Bab – Marrakech",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 5,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "640f4fb4-f118-455e-a8ed-60b8d48f6e51",
+      "name": "Association Trait d'Union Marrakech",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 6,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "89e78a9f-b587-49c8-9a2b-244675163136",
+      "name": "Association village SOS – Ait Ourire (Marrakech)",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 7,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "dc9abe15-0eae-40c8-ac9b-c8af45585701",
+      "name": "Association Club Planche a Voile d'Essaouira",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 8,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "de5473a3-fe9b-48fd-84c2-4e9c2c3e09b2",
+      "name": "Association La Danse des Femmes – France",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 9,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "4da3df80-4692-43f9-aa71-09d72b345cec",
+      "name": "Association Cap – Santé Belgique",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 10,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "df697b90-b757-4d2c-bd6a-153af574d5d3",
+      "name": "Hotel Golf Sofitel",
+      "partner_type": "civil",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 11,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "d58fe8ee-39a0-4ee7-aca1-cfece740efbe",
+      "name": "Mr Hicham EL MEHRAB",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "6d64a2bd-0dcc-4061-ac55-af9488d16648",
+      "name": "Mr El Mahi BENBINE",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "ae96681b-e6b7-42a9-93be-09921656fefd",
+      "name": "Docteur Naoufel EL MANSOURI",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "d44015fc-798a-433a-98aa-3396bb78fe01",
+      "name": "Mr Haj Brahim CHOUKRI",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "25a8de67-77ab-4005-b750-298e0619d141",
+      "name": "Mr Hassan NAJIB",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 5,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "4ef83ed8-1f79-4d82-bbea-399bcb288d17",
+      "name": "Mme Soriya OTMANI",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 6,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "c03aa25d-0be8-4028-9681-6a29e3296fa8",
+      "name": "Mr Mostafa OTMANI",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 7,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "8b02c021-0e3e-4ad9-b44f-821f8a8e9e56",
+      "name": "Mr Noureddine OTMANI",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 8,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "1d3b9cf9-93ea-49c3-bb85-705b2a5ddc61",
+      "name": "Mr Hakim EL OUASSINI",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 9,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "6a6ddb53-b077-41a5-abf7-432a0ecfccd6",
+      "name": "Mme Hannane EL OUASSINI",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 10,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "cbf5b7f5-6728-4b62-87df-3bae2c9831b4",
+      "name": "Mr Patrique et Michel",
+      "partner_type": "donor_member",
+      "logo_url": null,
+      "icon_name": null,
+      "website_url": null,
+      "sort_order": 11,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "c3533f55-a068-4638-ac2f-db38f9cedc6a",
+      "name": "المبادرة الوطنية للتنمية البشرية",
+      "partner_type": "official",
+      "logo_url": null,
+      "icon_name": "Landmark",
+      "website_url": null,
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "e9e7f6ef-dacd-4ad3-9af4-c2b87ced5463",
+      "name": "وزارة التضامن والإدماج",
+      "partner_type": "official",
+      "logo_url": null,
+      "icon_name": "Building2",
+      "website_url": null,
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "2e6e0fa1-b711-41d6-ad69-45e9eddc5ba8",
+      "name": "مجلس إقليم الصويرة",
+      "partner_type": "official",
+      "logo_url": null,
+      "icon_name": "HeartHandshake",
+      "website_url": null,
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "19604012-aeed-4366-a80b-c720b0e46ee0",
+      "name": "المديرية الإقليمية للصحة",
+      "partner_type": "official",
+      "logo_url": null,
+      "icon_name": "Hospital",
+      "website_url": null,
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "bc3bbdd5-d725-47f0-8a18-01d3cf323ef5",
+      "name": "أكاديمية التربية والتكوين",
+      "partner_type": "official",
+      "logo_url": null,
+      "icon_name": "GraduationCap",
+      "website_url": null,
+      "sort_order": 5,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "70523397-a9f7-40f1-9c14-4890286cd092",
+      "name": "التعاون الوطني",
+      "partner_type": "official",
+      "logo_url": null,
+      "icon_name": "ShieldCheck",
+      "website_url": null,
+      "sort_order": 6,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "ad868277-82d8-4ed4-a498-a40c9128753d",
+      "name": "محسنين وشركات محلية",
+      "partner_type": "official",
+      "logo_url": null,
+      "icon_name": "FileCheck",
+      "website_url": null,
+      "sort_order": 7,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    }
+  ],
+  "history_timeline": [
+    {
+      "id": "09589337-3a40-4763-b199-2ba03376d4d1",
+      "year": "2005",
+      "date": null,
+      "description": "بالشراكة مع محافظة الصويرة ولد مشروع \"الصويرة دارنا\" في إطار برنامج INDH (المبادرة الوطنية للتنمية البشرية).",
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "0d59a7c9-2e75-4930-a9a4-20e6a6da458c",
+      "year": "2008",
+      "date": "21 مارس",
+      "description": "افتتحت الجمعية أبوابها رسميًا، وبدأت في الترحيب بالأطفال المتخلى عنهم وأولئك الذين يواجهون أوضاعًا اجتماعية صعبة القادمين بشكل أساسي من جمعيات أخرى مثل جمعية النجمة وجمعية نور مقادور.",
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "85100536-79af-4206-b4fb-d12989f6fc4d",
+      "year": "2009",
+      "date": "28 أبريل",
+      "description": "حصلت المؤسسة على ترخيص قانوني وفقًا للقانون رقم 141-05 ووفقًا للقرار رقم 10/09 الصادر عن وزارة التضامن والأسرة والتنمية الاجتماعية للمرأة، بسعة 60 مستفيد ومستفيدة.",
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "6df6325b-841a-4f3d-8b9f-260b315c9e3a",
+      "year": "2017",
+      "date": "20 أغسطس",
+      "description": "تم تفويض المؤسسة، وفقًا للقانون 14-05، لزيادة سعة الاستقبال إلى 120 مستفيدً ومستفيدة.",
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "2fa66d0e-d132-4b7f-a605-20096075c0f4",
+      "year": "حالياً",
+      "date": null,
+      "description": "يتم تسيير المؤسسة حاليا من قبل جمعية مكونة من سبعة أعضاء، من بينهم ثلاث سيدات.",
+      "sort_order": 5,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    }
+  ],
+  "members": [
+    {
+      "id": "ecdc2ae6-d614-404c-b95c-0d9b045ff31a",
+      "name": "Khaled BENGHADA",
+      "role": "Président fondateur",
+      "member_type": "active",
+      "image_url": null,
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "0be63235-b7e9-4963-b244-adab7b2eef98",
+      "name": "Aziz ECHCHAIBI SEFRIOUI",
+      "role": "Président",
+      "member_type": "active",
+      "image_url": null,
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "07a5e5d1-36c2-4d09-954a-1478c3b2129c",
+      "name": "Zahra KENABO",
+      "role": "Président adjoint",
+      "member_type": "active",
+      "image_url": null,
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "2aa5bb6e-b63e-48de-8fea-f1a467ee4346",
+      "name": "Souad BAINO",
+      "role": "Trésorier",
+      "member_type": "active",
+      "image_url": null,
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "9efc6797-ced4-4a54-b075-bf813a882ea5",
+      "name": "Habib EL BAHI",
+      "role": "Trésorier adjoint",
+      "member_type": "active",
+      "image_url": null,
+      "sort_order": 5,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "a7c8855b-69a3-40f0-a60a-a234f0220eb0",
+      "name": "Aicha LACHAB",
+      "role": "Secrétaire Général",
+      "member_type": "active",
+      "image_url": null,
+      "sort_order": 6,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "0562db62-07a9-4e7e-90d2-9b331db08b21",
+      "name": "Noura SARAOUI",
+      "role": "Secrétaire adjoint",
+      "member_type": "active",
+      "image_url": null,
+      "sort_order": 7,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "3c25e418-25ab-41a7-9ec2-00fa5e51930d",
+      "name": "Michel Bohbot",
+      "role": "Expert en art contemporain",
+      "member_type": "honorary",
+      "image_url": null,
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "2cd95f6c-0365-4ad2-8220-97e46046c770",
+      "name": "Fatimzahra EL Hour",
+      "role": "Miss Maroc année 2015",
+      "member_type": "honorary",
+      "image_url": null,
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "cdc3e41c-5fdf-49be-b59f-e6a121b60f8d",
+      "name": "Professeur Abdelhafid LAHLAIDI",
+      "role": "Médecin chirurgien cardio vasculaire chercheur génie d'anatomie",
+      "member_type": "honorary",
+      "image_url": null,
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "1877a47c-4380-474d-ad0c-fc84180d2ac9",
+      "name": "Mourad BOURIKI",
+      "role": "Gagnant de la 1ère Saison \"The Voice أحلى صوت\"",
+      "member_type": "honorary",
+      "image_url": null,
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "bd0d63fd-55b5-4740-a9e6-8d09e5ff665e",
+      "name": "Bouchra BOUJLIL",
+      "role": "Directrice",
+      "member_type": "center_team",
+      "image_url": null,
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "c9b7ebb4-b905-4833-a88b-fc87bfe3727a",
+      "name": "Saida DAROUI",
+      "role": "Surveillante générale",
+      "member_type": "center_team",
+      "image_url": null,
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "7721deb1-4f4e-4598-9074-3e86a36b59bc",
+      "name": "Rabiaa ZETOUNE",
+      "role": "Coordinatrice éducatrices",
+      "member_type": "center_team",
+      "image_url": null,
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    },
+    {
+      "id": "dbc234e3-80c9-4c98-8857-1f430f4efde9",
+      "name": "Fatimzzahra ADI",
+      "role": "Responsable Financière",
+      "member_type": "center_team",
+      "image_url": null,
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00"
+    }
+  ],
+  "projects": [
+    {
+      "id": "da94ef41-4565-4fde-b6b6-de79bdabb8fc",
+      "slug": "darna-house",
+      "title": "تجهيز وتسيير دار الأطفال دارنا",
+      "short_description": "توفير مأوى آمن ورعاية شاملة للأطفال الأيتام وفي وضعية شارع بالصويرة.",
+      "long_description": "يهدف هذا المشروع المستمر إلى تغطية التكاليف التشغيلية لدار الرعاية بالصويرة (دارنا)، بما في ذلك التغذية، اللباس، التطبيب، والتعليم للأطفال المقيمين. نسعى لتوفير بيئة أسرية دافئة تدعم نموهم المتكامل وإدماجهم في المجتمع.",
+      "image_url": "https://picsum.photos/id/1018/800/600",
+      "target_amount": 500000,
+      "raised_amount": 0,
+      "status": "active",
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "879e3be8-cf5f-47c9-b1b3-011af93ebad1",
+      "slug": "nutrition-support",
+      "title": "الرعاية الصحية والدعم الغذائي للأسر المعوزة",
+      "short_description": "تقديم المساعدات الغذائية الأساسية والرعاية الصحية الدورية للأسر الأكثر هشاشة.",
+      "long_description": "يركز هذا البرنامج على الفحوصات الطبية الدورية والتكفل بمصاريف الأدوية والعمليات الجراحية المستعجلة لفائدة الأطفال المستفيدين وأمهاتهم اللواتي يعشن في ظروف قاسية، إلى جانب توزيع قفف غذائية دورية.",
+      "image_url": "https://picsum.photos/id/830/800/600",
+      "target_amount": 200000,
+      "raised_amount": 0,
+      "status": "completed",
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "9fb9674d-9684-4b74-b413-3e9a15e4d244",
+      "slug": "early-education",
+      "title": "دعم التعليم الأولي والدمج المدرسي",
+      "short_description": "تمويل الرسوم المدرسية واقتناء المحافظ والكتب المدرسية للأطفال المعوزين.",
+      "long_description": "نسعى لضمان عدم انقطاع أي طفل عن الدراسة بسبب الصعوبات المادية. يشمل هذا المشروع شراء الكتب المدرسية، المحافظ، الدفاتر، والأدوات التعليمية، بالإضافة إلى توفير حصص الدعم والتقوية ودروس الدعم النفسي-التربوي للأطفال.",
+      "image_url": "https://picsum.photos/id/367/800/600",
+      "target_amount": 150000,
+      "raised_amount": 550,
+      "status": "active",
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T22:51:50.107383+00:00"
+    }
+  ],
+  "project_supplies": [
+    {
+      "id": "3e06a832-3946-4316-8e31-de84910758a7",
+      "project_id": "da94ef41-4565-4fde-b6b6-de79bdabb8fc",
+      "name": "سرير خشبي مريح للأطفال",
+      "cost": 1200,
+      "is_fulfilled": false,
+      "category": "أثاث",
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "a6cd74eb-2284-494e-ac5c-aec03fb41372",
+      "project_id": "da94ef41-4565-4fde-b6b6-de79bdabb8fc",
+      "name": "غطاء صوفي شتوي دافئ",
+      "cost": 250,
+      "is_fulfilled": false,
+      "category": "أفرشة",
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "7f220c4d-584e-461c-aa84-19be7cc040e4",
+      "project_id": "da94ef41-4565-4fde-b6b6-de79bdabb8fc",
+      "name": "مجموعة خزانة ملابس شخصية لكل طفل",
+      "cost": 800,
+      "is_fulfilled": false,
+      "category": "أثاث",
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "2593076d-c565-4e55-9c7d-e732f5167e04",
+      "project_id": "da94ef41-4565-4fde-b6b6-de79bdabb8fc",
+      "name": "حقيبة طبية للإسعافات الأولية",
+      "cost": 400,
+      "is_fulfilled": false,
+      "category": "معدات طبية",
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "034bc6cd-59f4-4df5-99b6-d94d32c68ad8",
+      "project_id": "da94ef41-4565-4fde-b6b6-de79bdabb8fc",
+      "name": "جهاز تدفئة آمن للغرف المشتركة",
+      "cost": 1500,
+      "is_fulfilled": false,
+      "category": "تجهيز",
+      "sort_order": 5,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "2daee1e3-c6c0-4472-ab33-5c4125dc9bdd",
+      "project_id": "da94ef41-4565-4fde-b6b6-de79bdabb8fc",
+      "name": "وجبة غذائية متكاملة لطفل لمدة شهر",
+      "cost": 600,
+      "is_fulfilled": false,
+      "category": "تغذية",
+      "sort_order": 6,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "28968139-7de3-4369-bfd5-e14f22d7ea69",
+      "project_id": "9fb9674d-9684-4b74-b413-3e9a15e4d244",
+      "name": "طاولة دراسية ثنائية للقسم",
+      "cost": 1100,
+      "is_fulfilled": false,
+      "category": "أثاث",
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "1c115d98-b853-4c6c-9733-6fbcd763df60",
+      "project_id": "9fb9674d-9684-4b74-b413-3e9a15e4d244",
+      "name": "حاسوب محمول للتعليم والتوجيه التفاعلي",
+      "cost": 4500,
+      "is_fulfilled": false,
+      "category": "أجهزة",
+      "sort_order": 4,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "12deecab-0cf5-4c92-acd0-de1ebcd9b425",
+      "project_id": "9fb9674d-9684-4b74-b413-3e9a15e4d244",
+      "name": "لوحة جدارية تفاعلية للتدريس",
+      "cost": 2000,
+      "is_fulfilled": false,
+      "category": "تجهيز",
+      "sort_order": 5,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "7f4c38e0-27eb-4669-af9b-2d8658efa43a",
+      "project_id": "879e3be8-cf5f-47c9-b1b3-011af93ebad1",
+      "name": "قفة المواد الغذائية الأساسية لأسرة لمدة شهر",
+      "cost": 450,
+      "is_fulfilled": false,
+      "category": "تغذية",
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "1d7071dd-d5e4-4c3d-a8f5-935141c396ad",
+      "project_id": "879e3be8-cf5f-47c9-b1b3-011af93ebad1",
+      "name": "توفير الأدوية الأساسية والوصفات الطبية المستعجلة",
+      "cost": 500,
+      "is_fulfilled": false,
+      "category": "صحة",
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "ebd0a592-b1c9-46b0-a59f-ceb9ab31062c",
+      "project_id": "879e3be8-cf5f-47c9-b1b3-011af93ebad1",
+      "name": "نظارات طبية مصححة للأطفال ضعاف البصر",
+      "cost": 600,
+      "is_fulfilled": false,
+      "category": "صحة",
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T20:26:20.995805+00:00"
+    },
+    {
+      "id": "794bb868-cbcf-4961-a3e0-de4a5146be2f",
+      "project_id": "9fb9674d-9684-4b74-b413-3e9a15e4d244",
+      "name": "محفظة مدرسية مجهزة بالكامل بالدفاتر والأقلام",
+      "cost": 350,
+      "is_fulfilled": true,
+      "category": "دراسة",
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T22:42:51.758209+00:00"
+    },
+    {
+      "id": "db45efb1-cd2f-4122-b112-83c8bfd3fa98",
+      "project_id": "9fb9674d-9684-4b74-b413-3e9a15e4d244",
+      "name": "كتب ومقررات المستوى الابتدائي",
+      "cost": 200,
+      "is_fulfilled": true,
+      "category": "دراسة",
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-11T22:51:49.685873+00:00"
+    }
+  ],
+  "news": [
+    {
+      "id": "13cb80f8-7e35-4311-bbad-759e33fe9a8d",
+      "title": "زيارة السيد محمد رشيد إلى مؤسسة دارنا بالصويرة",
+      "excerpt": "قام عامل إقليم الصويرة، السيد محمد رشيد بزيارة ميدانية إلى مؤسسة دارنا، مرافقاً بوفد مرافق له. وهدفت هذه الزيارة إلى الاطلاع عن قرب على...",
+      "content": null,
+      "image_url": null,
+      "published_date": null,
+      "day_text": "10",
+      "month_text": "أبريل",
+      "is_published": true,
+      "slug": null,
+      "sort_order": 1,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-13T09:05:18.003601+00:00",
+      "title_fr": "زيارة السيد محمد رشيد إلى مؤسسة دارنا بالصويرة",
+      "title_en": "زيارة السيد محمد رشيد إلى مؤسسة دارنا بالصويرة",
+      "excerpt_fr": null,
+      "excerpt_en": null,
+      "content_fr": null,
+      "content_en": null
+    },
+    {
+      "id": "9399b496-778a-4dda-a869-85f77563b288",
+      "title": "مرور جمعية الصويرة دارنا في برنامج «ناس الخير» على قناة 2M",
+      "excerpt": "تشرفت جمعية الصويرة دارنا باستقبال فريق البرنامج الاجتماعي «ناس الخير» الذي يبث على قناة 2M. ويسلط هذا التقرير الضوء على المبادرات...",
+      "content": null,
+      "image_url": null,
+      "published_date": null,
+      "day_text": "10",
+      "month_text": "أبريل",
+      "is_published": true,
+      "slug": null,
+      "sort_order": 2,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-13T09:05:18.003601+00:00",
+      "title_fr": "مرور جمعية الصويرة دارنا في برنامج «ناس الخير» على قناة 2M",
+      "title_en": "مرور جمعية الصويرة دارنا في برنامج «ناس الخير» على قناة 2M",
+      "excerpt_fr": null,
+      "excerpt_en": null,
+      "content_fr": null,
+      "content_en": null
+    },
+    {
+      "id": "8ac85a90-c753-45a4-a19b-4fdf5d1ea444",
+      "title": "الاحتفال باليوم الوطني لليتيم لسنة 2021",
+      "excerpt": "بمناسبة اليوم الوطني لليتيم، تنظم الجمعية حملة لجمع التبرعات من المحسنين وأصدقاء الجمعية لرسم الابتسامة على محيا الأطفال...",
+      "content": null,
+      "image_url": null,
+      "published_date": null,
+      "day_text": "02",
+      "month_text": "سبتمبر",
+      "is_published": true,
+      "slug": null,
+      "sort_order": 3,
+      "created_at": "2026-07-11T16:34:56.152591+00:00",
+      "updated_at": "2026-07-13T09:05:18.003601+00:00",
+      "title_fr": "الاحتفال باليوم الوطني لليتيم لسنة 2021",
+      "title_en": "الاحتفال باليوم الوطني لليتيم لسنة 2021",
+      "excerpt_fr": null,
+      "excerpt_en": null,
+      "content_fr": null,
+      "content_en": null
+    },
+    {
+      "id": "cb1c62f4-bff6-4867-9738-42405ab7013d",
+      "title": "الاحتفال باليوم الوطني لليتيم لسنة 2021",
+      "excerpt": "بمناسبة اليوم الوطني لليتيم، تنظم الجمعية حملة لجمع التبرعات من المحسنين وأصدقاء الجمعية لرسم الابتسامة على محيا الأطفال...",
+      "content": "المحتوى الكامل هنا...",
+      "image_url": null,
+      "published_date": null,
+      "day_text": "02",
+      "month_text": "سبتمبر",
+      "is_published": true,
+      "slug": null,
+      "sort_order": 1,
+      "created_at": "2026-07-12T17:57:57.224477+00:00",
+      "updated_at": "2026-07-13T09:05:18.003601+00:00",
+      "title_fr": "الاحتفال باليوم الوطني لليتيم لسنة 2021",
+      "title_en": "الاحتفال باليوم الوطني لليتيم لسنة 2021",
+      "excerpt_fr": null,
+      "excerpt_en": null,
+      "content_fr": null,
+      "content_en": null
+    },
+    {
+      "id": "2b78e12b-853d-402d-9627-0795b67f494b",
+      "title": "مرور جمعية الصويرة دارنا في برنامج «ناس الخير» على قناة 2M",
+      "excerpt": "تشرفت جمعية الصويرة دارنا باستقبال فريق البرنامج الاجتماعي «ناس الخير» الذي يبث على قناة 2M. ويسلط هذا التقرير الضوء على المبادرات...",
+      "content": "المحتوى الكامل هنا...",
+      "image_url": null,
+      "published_date": null,
+      "day_text": "10",
+      "month_text": "أبريل",
+      "is_published": true,
+      "slug": null,
+      "sort_order": 2,
+      "created_at": "2026-07-12T17:57:57.224477+00:00",
+      "updated_at": "2026-07-13T09:05:18.003601+00:00",
+      "title_fr": "مرور جمعية الصويرة دارنا في برنامج «ناس الخير» على قناة 2M",
+      "title_en": "مرور جمعية الصويرة دارنا في برنامج «ناس الخير» على قناة 2M",
+      "excerpt_fr": null,
+      "excerpt_en": null,
+      "content_fr": null,
+      "content_en": null
+    },
+    {
+      "id": "bd1e16f2-9c51-4e77-902e-4b88ab3be51d",
+      "title": "زيارة السيد محمد رشيد إلى مؤسسة دارنا بالصويرة",
+      "excerpt": "قام عامل إقليم الصويرة، السيد محمد رشيد بزيارة ميدانية إلى مؤسسة دارنا، مرافقاً بوفد مرافق له. وهدفت هذه الزيارة إلى الاطلاع عن قرب على...",
+      "content": "المحتوى الكامل هنا...",
+      "image_url": null,
+      "published_date": null,
+      "day_text": "10",
+      "month_text": "أبريل",
+      "is_published": true,
+      "slug": null,
+      "sort_order": 3,
+      "created_at": "2026-07-12T17:57:57.224477+00:00",
+      "updated_at": "2026-07-13T09:05:18.003601+00:00",
+      "title_fr": "زيارة السيد محمد رشيد إلى مؤسسة دارنا بالصويرة",
+      "title_en": "زيارة السيد محمد رشيد إلى مؤسسة دارنا بالصويرة",
+      "excerpt_fr": null,
+      "excerpt_en": null,
+      "content_fr": null,
+      "content_en": null
+    },
+    {
+      "id": "c5ed0536-381b-488c-bcf7-29911c88ede1",
+      "title": "يصصصصصصصصصصص",
+      "excerpt": "لققققققققققققققققققققققققق",
+      "content": "<p>سؤؤسؤؤؤؤؤؤؤؤؤؤؤؤؤؤؤؤ</p>",
+      "image_url": "",
+      "published_date": null,
+      "day_text": "10",
+      "month_text": "أبريل",
+      "is_published": true,
+      "slug": "يصصصصصصصصصصص-1783883192163",
+      "sort_order": 0,
+      "created_at": "2026-07-12T19:06:34.467248+00:00",
+      "updated_at": "2026-07-13T09:05:18.003601+00:00",
+      "title_fr": "يصصصصصصصصصصص",
+      "title_en": "يصصصصصصصصصصص",
+      "excerpt_fr": null,
+      "excerpt_en": null,
+      "content_fr": null,
+      "content_en": null
+    }
+  ]
+}
